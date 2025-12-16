@@ -6,6 +6,7 @@ app.use(cors())
 app.use(express.json())
 
 // Almacenamiento en memoria (me daba un poco de pereza hacer una bd para esto y como no se especificaba que hubiera que hacerlo con una bd)
+// Y ademas todo se hace en el postman que no se hasta que pubto lo consideres como que esta bien.
 let nombres = []
 let currentId = 1
 
